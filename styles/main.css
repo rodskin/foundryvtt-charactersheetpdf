@@ -1,0 +1,103 @@
+#sheets_wrapper {
+	width: 24cm;
+	height: 100%;
+	margin: 0 auto;
+	color: black;
+}
+.sheet {
+	height: 30cm;
+	width: 24cm;
+	background-size: cover;
+	position: relative;
+}
+.sheet img {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.is_absolute {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+}
+.is_label {
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#label_name {
+	top: 134px;
+	left: 82px;
+}
+
+#label_class_level {
+	top: 90px;
+	left: 400px;
+}
+#label_background {
+	top: 90px;
+	left: 570px;
+}
+
+#label_player_name {
+	top: 90px;
+	left: 740px;
+}
+
+#label_race {
+	top: 130px;
+	left: 400px;
+}
+
+#label_class_alignment {
+	top: 130px;
+	left: 570px;
+}
+
+#label_experience_points {
+	top: 130px;
+	left: 740px;
+}
+
+#label_strength {
+	top: 215px;
+	text-align: center;
+	left: 40px;
+	font-size: 9px;
+	width: 69px;
+}
+#label_dexterity {
+	top: 325px;
+	text-align: center;
+	width: 69px;
+	left: 40px;
+	font-size: 9px;
+}
+#label_constitution {
+	text-align: center;
+	width: 69px;
+	left: 40px;
+	top: 434px;
+	font-size: 9px;
+}
+#label_intelligence {
+	text-align: center;
+	width: 69px;
+	left: 40px;
+	top: 544px;
+	font-size: 9px;
+}
+#label_wisdom {
+	text-align: center;
+	width: 69px;
+	left: 40px;
+	top: 653px;
+	font-size: 9px;
+}
+#label_charisma {
+	text-align: center;
+	width: 69px;
+	left: 40px;
+	font-size: 9px;
+	top: 761px;
+}
